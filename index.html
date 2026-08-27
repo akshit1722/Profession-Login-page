@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>client-Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <section class="login-card">
+
+            <div class="logo">
+                <h1>Welcome Back</h1>
+                <p>Enter your credentials to access your workspace</p>
+            </div>
+            <hr>
+
+
+            <form>
+
+                <div class="input-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Enter your email"  required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" class="form-input" placeholder="Enter your password" required>
+                </div>
+
+                <div class="options">
+
+                    <label class="remember">
+                        <input type="checkbox">
+                        Remember me
+                    </label>
+
+                    <a href="#" class="reset-pass">Forgot Password?</a>
+
+                </div>
+
+                <button type="submit" class="s-btn">
+                    Login
+                </button>
+
+            </form>
+
+            <div class="divider">
+                <span>or continue with</span>
+            </div>
+
+            <div class="other-options">
+                <button class="google-option"><span class="google-icon">
+                        <img src="/images/google.png" alt="google-icon" width="24" height="24">
+                    </span>Google</button>
+                <button class="github-option"><span class="github-icon">
+                        <img src="/images/social.png" alt="github-icon" width="24" height="24">
+                    </span>Github</button>
+                <button class="apple-option"><span class="apple-icon">
+                    <img src="/images/apple.png" alt="apple-icon" width="24" height="24"></span>Apple</button>
+            </div>
+
+            <p class="signup">
+                Don't have an account?
+                <a href="#">Sign up</a>
+            </p>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
