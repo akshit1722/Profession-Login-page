@@ -16,7 +16,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
-    background: radial-gradient(circle, #059e7acb, #07011a);
+    background: radial-gradient(circle, #024132cb, #080120);
+   /* background: linear-gradient(
+        120deg,
+        #021644,
+        #011929
+    ); */
 
 }
 
@@ -98,7 +103,7 @@ body {
 
 .logo h1 {
     color: rgb(231, 231, 215);
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
     /* font-weight: <weight>; */
